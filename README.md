@@ -12,6 +12,20 @@ Let's walk through these models and highlight why **Random Forest Regression** s
 
 ---
 
+## ⚙️ Data Preprocessing: A Universal Step
+
+Data preprocessing is a crucial step before applying any machine learning model. It ensures the data is clean, consistent, and ready for analysis. The common steps include:
+
+- **📥 Data Importing:** Loading datasets using libraries like Pandas.
+- **🔍 Handling Missing Values:** Replacing or removing missing data.
+- **🛠️ Encoding Categorical Variables:** Converting categorical variables into numerical form.
+- **⚖️ Feature Scaling:** Applying techniques like Standardization or Normalization.
+- **✂️ Train-Test Split:** Dividing data into training and testing sets to evaluate model performance.
+
+These steps ensure that all models can process the data effectively and yield reliable predictions.
+
+---
+
 ## 📊 1. Decision Tree Regression
 
 **Decision Tree Regression** splits the dataset into distinct branches based on feature conditions. It's intuitive and easy to interpret but can be prone to overfitting if not tuned properly.
@@ -78,6 +92,8 @@ Let's walk through these models and highlight why **Random Forest Regression** s
 All models were evaluated using the **R² Score**, which measures the proportion of variance explained by the model. A higher score indicates better performance.
 
 The **Random Forest Regression** consistently delivered the highest R² score, affirming its strength in handling diverse datasets.
+
+- ![alt text](https://github.com/tanveerj5/Comprehensive-Overview-of-Machine-Learning-Regression-Models/blob/main/campion%20model%20score.png)
 
 ---
 
